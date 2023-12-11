@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ovde favicon png ne radi slika -->
+    <link rel="shortcut icon" href="assets/img/logo-nav.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--=============== REMIXICON ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Athletic's Gym</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="assets/img/logo-nav.png" alt="logo" srcset=""> Athletic's Gym
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Naslovna</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="program.html" class="nav__link">Program</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="onama.html" class="nav__link">O Nama</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="cenovnik.html" class="nav__link">Cenovnik</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="kontakt.html" class="nav__link">Kontakt</a>
+                    </li>
+                    <div class="nav__link">
+                    </div>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            
+            <!-- Toogle button -->
+            <div class="nav__toogle" id="nav-toogle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- BODY -->
+    <section class="contact">
+        <div class="content">
+            <h2 class="section__subtitle">Kontaktirajte nas</h2>
+            <p>Ukoliko više volite da kuckate, sva vaša pitanja i sugestije možete nam ostaviti putem kontakt forme</p>
+        </div>
+        <div class="container-kontakt">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Adresa</h3>
+                        <p>Bulevar Oslobodilaca 23 <br>Čačak </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fas fa-phone" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Telefon</h3>
+                        <p>063 10 33 413</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>athletic@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Pošaljite poruku</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Ime i Prezime</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Poruka...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Pošalji" id="submit-button">
+                    </div>
+                </form>
+                <p class="kontakt__message" id="kontakt-message"></p>
+            </div>
+
+
+        </div>
+    </section>   
+    <!--==================== FOOTER ====================-->
+    <footer class="section" id="footer">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <div>
+                    <a href="#" class="footer__logo">
+                        <img src="assets/img/logo-nav.png" alt=""> Athletic's Gym
+                    </a>
+                    <p class="footer__description">
+                        Nadmašite sebe u našoj teretani. <br>Vaš put ka boljoj formi počinje ovde.  </p>                     
+                        <p>Radno vreme: 
+                        <br> Ponedeljak-Petak: 7.30 - 22h
+                        <br> Subota: 09 - 21h
+                    </p>
+                </div>
+                <div>
+                    <h3 class="footer__title"> Mapa Sajta
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="index.html" class="footer__link">Naslovna</a>
+                        </li>
+                        <li>
+                            <a href="program.html" class="footer__link">Program</a>
+                        </li>
+                        <li>
+                            <a href="onama.html" class="footer__link">O Nama</a>
+                        </li>
+                        <li>
+                            <a href="cenovnik.html" class="footer__link">Cenovnik</a>
+                        </li>
+                        <li>
+                            <a href="kontakt.html" class="footer__link">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer__title"> Kontakt
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="mailto:athletic@gmail.com" class="footer__link">athletic@gmail.com</a> 
+                        </li>
+                        <li>
+                            <a href="tel:0631033413" class="footer__link">063 10 33 413</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+    </body>
+</html>
